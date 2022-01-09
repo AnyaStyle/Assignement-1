@@ -2,3 +2,8 @@
 @import url(./components.css);
 @import url(./normalize.css);
 @import url(./typography.css);
+
+@font-face {
+    font-family: 'my font';
+    src: url('./');
+}

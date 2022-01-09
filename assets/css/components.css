@@ -1,10 +1,17 @@
 .header{
     border: 3px solid rgb(37, 116, 79);
     background-color: rgb(37, 116, 79);
+    position: fixed;
     width: 100%; 
     left: 0;
     top: 0;
     right: 0;
+    line-height: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.shadow{
+    text-shadow: 5px 5px 5px #000;
 }
 
 .footer{
@@ -21,12 +28,16 @@
     border: 2px solid rgb(37, 116, 79);
     box-sizing: content-box;
     margin: 50px;
-    padding: 0%;
+    padding: 25px;
     border-radius: 10px;
-    border: ;
 
 .search {
     font-size: 20px;
     text-decoration: none;
     text-transform: capitalize;
+}
+
+@font-face {
+    font-family: ;
+    src: url();
 }

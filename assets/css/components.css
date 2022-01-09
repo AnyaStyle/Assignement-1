@@ -10,10 +10,6 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
-.shadow{
-    text-shadow: 5px 5px 5px #000;
-}
-
 .footer{
     border: 3px solid rgb(37, 116, 79);
     background-color: rgb(37, 116, 79);
@@ -27,9 +23,13 @@
     background-color: rgb(164, 216, 142);
     border: 2px solid rgb(37, 116, 79);
     box-sizing: content-box;
-    margin: 50px;
+    /* margin: 50px; */
+    margin-left: 25%;
+    margin-right: 25%;
     padding: 25px;
     border-radius: 10px;
+    display:inline-block;
+}
 
 .search {
     font-size: 20px;
@@ -37,7 +37,21 @@
     text-transform: capitalize;
 }
 
-@font-face {
-    font-family: ;
-    src: url();
+.top {
+    font-size: 20px;
+    font-family: initial;
+    color: rgb(37, 116, 79);
+    padding-bottom: 90px;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.more {
+    border-color: rgb(37, 116, 79);
+    color: rgb(37, 116, 79)n;
+}
+
+.more:hover {
+    background-color: rgb(37, 116, 79);
+    color: white;
 }
